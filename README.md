@@ -5,12 +5,15 @@ Acesse o projeto diretamente no GitHub Pages:
 
 ## 🖥️ Descrição
 Este projeto simula um sistema operacional diretamente no navegador utilizando **HTML**, **CSS** e **JavaScript**. A interface rica e interativa oferece aplicativos, temas customizáveis, jogos, um terminal funcional e mais! É ideal para demonstrar habilidades em desenvolvimento web e explorar conceitos interativos.
+---
 ## 🖼️ Captura de Tela
 ### Tela Inicial com tema frutiger aero pink
 ![Tela Inicial do Sistema Operacional](Site.png)
 ### Tela Inicial com tema Hackerkk
 ![Tela Inicial do Sistema Operacional](Site2.png)
+
 ---
+
 ## 📋 Funcionalidades
 - ✅ **Aplicativos**: Calculadora, Bloco de Notas, Navegador, Loja de Apps, Terminal, Jogos, Galeria, Configurações e mais.
 - ✅ **Jogos**: Snake, Tic Tac Toe, Rock-Paper-Scissors com IA e Adivinhe o Número.
@@ -26,7 +29,9 @@ Este projeto simula um sistema operacional diretamente no navegador utilizando *
 - **CSS3**: Incluindo variáveis de tema e estilos responsivos.
 - **JavaScript**: Para funcionalidades interativas, gerenciamento de janelas e lógica dos aplicativos.
 - **ml5.js**: Integração para aprendizado de máquina (potencial futuro).
+
 ---
+
 ## 🌈 Temas Disponíveis
 Os seguintes temas estão disponíveis no sistema:
 1. **Padrão**:
@@ -56,7 +61,9 @@ Os seguintes temas estão disponíveis no sistema:
 ### **Como usar os temas:**
 - Abra o aplicativo **Temas** no sistema operacional simulado.
 - Clique no botão correspondente ao tema desejado.
+
 ---
+
 ## 📜 Comandos Disponíveis no Terminal
 Aqui estão os comandos que você pode usar no terminal do sistema:
 ### **Básicos**
