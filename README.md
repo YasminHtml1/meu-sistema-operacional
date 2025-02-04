@@ -5,7 +5,17 @@ Acesse o projeto diretamente no GitHub Pages:
 
 ## 🖥️ Descrição
 Este projeto simula um sistema operacional diretamente no navegador utilizando **HTML**, **CSS** e **JavaScript**. A interface rica e interativa oferece aplicativos, temas customizáveis, jogos, um terminal funcional e mais! É ideal para demonstrar habilidades em desenvolvimento web e explorar conceitos interativos.
+
 ---
+
+## 🎥 Demonstração
+Demonstração 1
+![Demonstração do Sistema](demonstração1.gif)
+
+Demonstração 2
+![Demonstração do Sistema](demonstração2.gif)
+---
+
 ## 🖼️ Captura de Tela
 ### Tela Inicial com tema frutiger aero pink
 ![Tela Inicial do Sistema Operacional](Site.png)
