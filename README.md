@@ -9,10 +9,10 @@ Este projeto simula um sistema operacional diretamente no navegador utilizando *
 ---
 
 ## 🎥 Demonstração
-Demonstração 1
+Alterando Temas!
 ![Demonstração do Sistema](demonstração1.gif)
 
-Demonstração 2
+Abrindo aplicativos e movendo!
 ![Demonstração do Sistema](demonstração2.gif)
 ---
 
