@@ -9,7 +9,8 @@
   <style>
     /* Variáveis de tema e reset */
     :root {
-      --desktop-bg: url('https://picsum.photos/1920/1080?blur=2');
+      /* Fundo em 4K */
+      --desktop-bg: url('https://picsum.photos/3840/2160?blur=2');
       --desktop-bg-size: cover;
       --window-header-bg: #007acc;
       --window-header-text: #fff;
@@ -376,7 +377,8 @@
         <div>RPS Challenge</div>
       </div>
       <div class="icon" id="guessNumberIcon" style="display:none" onclick="openWindow('Guess the Number')">
-        <img src="Comic.png" alt="Guess the Number">
+        <!-- Imagem corrigida para exibir corretamente -->
+        <img src="https://img.icons8.com/color/96/000000/number.png" alt="Guess the Number">
         <div>Guess the Number</div>
       </div>
     </div>
@@ -401,7 +403,7 @@
     /* Temas disponíveis (novos temas adicionados) */
     const themes = {
       "Padrão": {
-        desktopBg: "url('https://picsum.photos/1920/1080?blur=2')",
+        desktopBg: "url('https://picsum.photos/3840/2160?blur=2')",
         desktopBgSize: "cover",
         windowHeaderBg: "#007acc",
         windowHeaderText: "#fff",
@@ -443,14 +445,14 @@
         bodyBg: "#111"
       },
       "Ocean": {
-        desktopBg: "url('https://picsum.photos/1920/1080?water')",
+        desktopBg: "url('https://picsum.photos/3840/2160?water')",
         desktopBgSize: "cover",
         windowHeaderBg: "#0077be",
         windowHeaderText: "#fff",
         bodyBg: "#e0f7fa"
       },
       "Vintage": {
-        desktopBg: "url('https://picsum.photos/1920/1080?grayscale')",
+        desktopBg: "url('https://picsum.photos/3840/2160?grayscale')",
         desktopBgSize: "cover",
         windowHeaderBg: "#8b4513",
         windowHeaderText: "#fff",
