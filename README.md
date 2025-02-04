@@ -108,5 +108,7 @@ Aqui estão os comandos que você pode usar no terminal do sistema:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/YasminHtml1/meu-sistema-operacional.git
+## 🗺️Melhorias futuruas:
+correção de bugs de imagens, colocar inicializador de sistema operacional personalizado, colocar inicializador, para poder carregar imagens ou coisas mais facil, suposto gerenciador de tarefas, deixalo mais atraente, obrigada pela atenção!
 📝 Licença
 Este projeto está sob a licença MIT. Você é livre para usá-lo e modificá-lo como quiser.
