@@ -2,6 +2,10 @@
 
 ## 🖥️ Descrição
 Este projeto simula um sistema operacional diretamente no navegador utilizando **HTML**, **CSS** e **JavaScript**. A interface rica e interativa oferece aplicativos, temas customizáveis, jogos, um terminal funcional e mais! É ideal para demonstrar habilidades em desenvolvimento web e explorar conceitos interativos.
+## 🖼️ Captura de Tela
+
+### Tela Inicial
+![Tela Inicial do Sistema Operacional](Site.png)
 
 ---
 
