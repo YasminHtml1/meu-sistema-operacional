@@ -2,95 +2,139 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Sistema Operacional Simulado - Versão Robustificada 3.0</title>
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-  <!-- Carrega a biblioteca ml5.js -->
-  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> 
+  <title>SimOS 4.0</title>
   <link rel="stylesheet" href="Isabela.css">
 </head>
 <body>
-  <!-- Área do Desktop -->
   <div class="desktop" id="desktop">
     <div class="icons-container" id="iconsContainer">
-      <!-- Aplicativos fixos -->
-      <div class="icon" onclick="openWindow('Calculadora')">
+
+      <div class="icon" ondblclick="openWindow('Calculadora')">
         <img src="https://img.icons8.com/color/96/000000/calculator.png" alt="Calculadora">
         <div>Calculadora</div>
       </div>
-      <div class="icon" onclick="openWindow('Bloco de Notas')">
+
+      <div class="icon" ondblclick="openWindow('Bloco de Notas')">
         <img src="https://img.icons8.com/color/96/000000/notepad.png" alt="Bloco de Notas">
         <div>Bloco de Notas</div>
       </div>
-      <div class="icon" onclick="openWindow('Navegador')">
+
+      <div class="icon" ondblclick="openWindow('Navegador')">
         <img src="https://img.icons8.com/color/96/000000/internet.png" alt="Navegador">
         <div>Navegador</div>
       </div>
-      <div class="icon" onclick="openWindow('Temas')">
+
+      <div class="icon" ondblclick="openWindow('Temas')">
         <img src="https://img.icons8.com/color/96/000000/paint-palette.png" alt="Temas">
         <div>Temas</div>
       </div>
-      <div class="icon" onclick="openWindow('Loja')">
+
+      <div class="icon" ondblclick="openWindow('Loja')">
         <img src="https://img.icons8.com/color/96/000000/shop.png" alt="Loja">
         <div>Loja</div>
       </div>
-      <!-- Novos aplicativos -->
-      <div class="icon" onclick="openWindow('Relógio')">
+
+      <div class="icon" ondblclick="openWindow('Relógio')">
         <img src="https://img.icons8.com/color/96/000000/clock.png" alt="Relógio">
         <div>Relógio</div>
       </div>
-      <div class="icon" onclick="openWindow('Música')">
+
+      <div class="icon" ondblclick="openWindow('Música')">
         <img src="https://img.icons8.com/color/96/000000/musical-notes.png" alt="Música">
         <div>Música</div>
       </div>
-      <div class="icon" onclick="openWindow('Galeria')">
+
+      <div class="icon" ondblclick="openWindow('Galeria')">
         <img src="https://img.icons8.com/color/96/000000/picture.png" alt="Galeria">
         <div>Galeria</div>
       </div>
-      <div class="icon" onclick="openWindow('Calendário')">
+
+      <div class="icon" ondblclick="openWindow('Calendário')">
         <img src="https://img.icons8.com/color/96/000000/calendar.png" alt="Calendário">
         <div>Calendário</div>
       </div>
-      <div class="icon" onclick="openWindow('Terminal')">
+
+      <div class="icon" ondblclick="openWindow('Terminal')">
         <img src="https://img.icons8.com/color/96/000000/console.png" alt="Terminal">
         <div>Terminal</div>
       </div>
-      <div class="icon" onclick="openWindow('Chat')">
+
+      <div class="icon" ondblclick="openWindow('Chat')">
         <img src="https://img.icons8.com/color/96/000000/chat.png" alt="Chat">
         <div>Chat</div>
       </div>
-      <div class="icon" onclick="openWindow('Contatos')">
+
+      <div class="icon" ondblclick="openWindow('Contatos')">
         <img src="https://img.icons8.com/color/96/000000/contacts.png" alt="Contatos">
         <div>Contatos</div>
       </div>
-      <div class="icon" onclick="openWindow('Explorador de Arquivos')">
+
+      <div class="icon" ondblclick="openWindow('Explorador de Arquivos')">
         <img src="https://img.icons8.com/color/96/000000/folder-invoices.png" alt="Arquivos">
         <div>Arquivos</div>
       </div>
-      <div class="icon" onclick="openWindow('Editor de Imagens')">
-        <img src="https://img.icons8.com/color/96/000000/image.png" alt="Editor de Imagens">
-        <div>Editor</div>
+
+      <div class="icon" ondblclick="openWindow('Paint')">
+        <img src="https://img.icons8.com/color/96/000000/image.png" alt="Paint">
+        <div>Paint</div>
       </div>
-      <div class="icon" onclick="openWindow('Configurações')">
+
+      <div class="icon" ondblclick="openWindow('Configurações')">
         <img src="https://img.icons8.com/color/96/000000/settings.png" alt="Configurações">
-        <div>Configurações</div>
+        <div>Config</div>
       </div>
-      <!-- Novo aplicativo: Bloco de Tarefas -->
-      <div class="icon" onclick="openWindow('Bloco de Tarefas')">
-        <img src="https://img.icons8.com/color/96/000000/task.png" alt="Bloco de Tarefas">
+
+      <div class="icon" ondblclick="openWindow('Bloco de Tarefas')">
+        <img src="https://img.icons8.com/color/96/000000/task.png" alt="Tarefas">
         <div>Tarefas</div>
       </div>
-      <!-- Os aplicativos de IA serão instalados via Loja -->
-      <div class="icon" id="mlAssistenteIcon" style="display:none" onclick="openWindow('RPS Challenge')">
+
+      <div class="icon" ondblclick="openWindow('Snake')">
+        <img src="https://img.icons8.com/color/96/000000/snake.png" alt="Snake">
+        <div>Snake</div>
+      </div>
+
+      <div class="icon" ondblclick="openWindow('Tic Tac Toe')">
+        <img src="https://img.icons8.com/color/96/000000/tic-tac-toe.png" alt="Jogo da Velha">
+        <div>Jogo da Velha</div>
+      </div>
+
+      <div class="icon" ondblclick="openWindow('Recursos')">
+        <img src="https://img.icons8.com/color/96/000000/monitor.png" alt="Recursos">
+        <div>Recursos</div>
+      </div>
+
+      <!-- Instalados via Loja -->
+      <div class="icon" id="mlAssistenteIcon" style="display:none" ondblclick="openWindow('RPS Challenge')">
         <img src="https://img.icons8.com/color/96/000000/artificial-intelligence.png" alt="RPS Challenge">
         <div>RPS Challenge</div>
       </div>
-      <div class="icon" id="guessNumberIcon" style="display:none" onclick="openWindow('Guess the Number')">
-        <!-- Imagem corrigida para exibir corretamente -->
+      <div class="icon" id="guessNumberIcon" style="display:none" ondblclick="openWindow('Guess the Number')">
         <img src="https://img.icons8.com/color/96/000000/number.png" alt="Guess the Number">
-        <div>Guess the Number</div>
+        <div>Guess Number</div>
       </div>
+
     </div>
   </div>
-   <script src="Beatriz.js"></script>
+
+  <!-- Taskbar -->
+  <div id="taskbar">
+    <div id="taskbar-start" onclick="toggleStartMenu()">⊞ Início</div>
+    <div id="taskbar-clock"></div>
+    <div id="start-menu" style="display:none;">
+      <div class="start-item" onclick="openWindow('Calculadora');toggleStartMenu()">🔢 Calculadora</div>
+      <div class="start-item" onclick="openWindow('Bloco de Notas');toggleStartMenu()">📝 Bloco de Notas</div>
+      <div class="start-item" onclick="openWindow('Terminal');toggleStartMenu()">💻 Terminal</div>
+      <div class="start-item" onclick="openWindow('Navegador');toggleStartMenu()">🌐 Navegador</div>
+      <div class="start-item" onclick="openWindow('Snake');toggleStartMenu()">🐍 Snake</div>
+      <div class="start-item" onclick="openWindow('Tic Tac Toe');toggleStartMenu()">⭕ Jogo da Velha</div>
+      <div class="start-item" onclick="openWindow('Paint');toggleStartMenu()">🎨 Paint</div>
+      <div class="start-item" onclick="openWindow('Recursos');toggleStartMenu()">📊 Recursos</div>
+      <div class="start-item" onclick="openWindow('Loja');toggleStartMenu()">🛒 Loja</div>
+      <div class="start-item" onclick="openWindow('Temas');toggleStartMenu()">🖌️ Temas</div>
+    </div>
+  </div>
+
+  <script src="Beatriz.js"></script>
 </body>
 </html>
